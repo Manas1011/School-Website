@@ -1,0 +1,59 @@
+1. <nav> - This particular tag wraps up all the list in the menu inside it.
+2. class="navbar-inverse" - Bootstarp css property mentioned in a "class" which specifies the bg-color and font color for menu bar
+3. z- index:99999; - its a css property used for the menu bar so that it doesnt collide with videos or images.
+4. <div class="navbar-header"> -Its a Bootstrap Css property mentioned in a "class:" inside the <div> tag which is used for mentioning that the menu should be on top of the page.
+5. class="navbar-toggle"- Its a Bootstrap Css property mention in a "class" which is used to open the menu in Tablets and Mobile screen by insertion a button(That is why it is mentioned inside the button tag)
+6. data-toggle="collapse" data-target="#myNavbar"- It is a Bootstrap CSS peoperty which is mentioned in a "class" which means it wraps up the contents(all contents with the same id as "myNavbar") inside the button(That is why it is mentioned inside the button tag).
+7.<span class="icon-bar"> - It  is a Bootstrap Css property mentioned in a class in <span> tag which is a "-" symbol.
+8. class="navbar-brand" - It is a Bootstarp Css property mentioned in a "class" which specifies height,margin,font-size,font-color & padding.
+9. class="collapse" - It is a Bootstrap CSS property mentioned in a "class" which hides all the contents.
+10. class="navbar-collapse"- It is a Bootstrap CSS property mentioned in a "class" which specifies the bg-color and alignment.
+11. class="nav navbar-nav" - It is a Bootstrap CSS property mentioned in a "class" which specifies the style and alignment for the items in the list.
+12. class=”page-header” - This is a Bootstrap class which adds  padding-bottom: 9px;margin: 40px 0 20px;border-bottom: 1px solid #eee;
+13. class=”img-responsive”. This class will automatically resize the image as per the screen so no matter what the screen size is, it will fit inside that screen without spilling out.
+14.class-container -This a Bootstrap Css property which determines Fixed width container with widths determined by screen sites. Equal margin on the left and right.
+#Environment
+15.So first we will open the ul tag and give bootstrap class=”list-group”. This class will remove additional padding-left and make it 0px.
+16. Then we will have our first li tag, in which we will have our first news. This li tag
+has some bootstrap classes as follows:
+➔ list-group-item - This will add padding-bottom, padding-top and border 1px
+of lightgrey.
+➔ list-group-item-success - This will add a light green color in the
+background.
+17. ➔ list-group-item-text - This adds line-height and margin-bottom for better
+view.
+
+#Books
+18. This div has data-target=”#First_Space_Encyclopaedia”. This will contain the id of the
+popup to be opened when this div is clicked.
+This div has data-toggle="modal" which says that if this div is clicked, open the element
+which has the same id as this <div> data-target.
+
+19. It has classes:
+➔ modal - This class adds the alignment to the popup.
+➔ fade - This class adds fade in and fade out effect to the pop-up. When you click on
+the book, there is a fade in effect when popup opens and fade-out effect when the
+pop-up closes.
+
+20.There is a div with class modal-dialog. This class adds padding to the popup box.
+There is a div with class modal-content. This class adds background-color and
+border-radius.
+In addition we have added margin-top to this class in CSS. Because we want to have
+some margin-top for this popup
+
+21. Div with class modal-header, this class adds padding and border-bottom to the heading.
+inside heading we will have a close button of popup and the name of the book.
+
+22. Button-X
+<button type="button" class="close" data-dismiss="modal">&times;</button>
+We have a button
+with class=”close”, this style the close button. It has
+data-dismiss="modal" which closes the popup when clicked
+on the button. And it have &times; which gets the cross icon
+of the button this -  X
+
+23.  Now we have a div with class modal-body, this class adds padding
+of 15px to the body of the popup.
+Inside the body we have the image of the book, description of the
+book and amazon link to buy the book.
+➔ Then inside the above div, we have Image of the book
